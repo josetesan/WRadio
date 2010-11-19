@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>programa</key>
+		<string>Hoy por Hoy</string>
+		<key>presentador</key>
+		<string>con Carlos Puig</string>
+		<key>horario</key>
+		<string>Lunes a viernes de 6:00 a 10:00</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_13616</string>
+		<key>imagen</key>
+		<string>hoyxhoy_1_290290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Hoy por Hoy Domingo </string>
+		<key>presentador</key>
+		<string>con Julio Luis García e Ignacio Lozano</string>
+		<key>horario</key>
+		<string>Domingo 10 a 12 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_795393</string>
+		<key>imagen</key>
+		<string>pareja.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Hoy por Hoy en la Ciencia </string>
+		<key>presentador</key>
+		<string>con Ángel Figueroa </string>
+		<key>horario</key>
+		<string>Sábado: 10:00 a 11:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_733419</string>
+		<key>imagen</key>
+		<string>angelcolor290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>SaludHableMente W </string>
+		<key>presentador</key>
+		<string>con Leonel Gaytán </string>
+		<key>horario</key>
+		<string>Sábado: 11:00 a 12:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_733418</string>
+		<key>imagen</key>
+		<string>leonelcolor290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Hoy por Hoy </string>
+		<key>presentador</key>
+		<string>con León Krauze </string>
+		<key>horario</key>
+		<string>Lunes a viernes de 14:00 a 16:00</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_735013</string>
+		<key>imagen</key>
+		<string>leonkra290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Triple G </string>
+		<key>presentador</key>
+		<string>con Eduardo Iniesta </string>
+		<key>horario</key>
+		<string>Sábados de 21:00 a 23:00 horas por W Radio</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_15828</string>
+		<key>imagen</key>
+		<string>edu290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Hoy por Hoy </string>
+		<key>presentador</key>
+		<string>con Salvador Camarena</string>
+		<key>horario</key>
+		<string>Lunes a viernes de 20:00 a 22:00</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_735008</string>
+		<key>imagen</key>
+		<string>salvador290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Martha Debayle en W </string>
+		<key>presentador</key>
+		<string>con Martha Debayle </string>
+		<key>horario</key>
+		<string>Lunes a Viernes de 12:00 a 14:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_170319</string>
+		<key>imagen</key>
+		<string>martha290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>El Weso </string>
+		<key>presentador</key>
+		<string>con Enrique Hernández Alcázar </string>
+		<key>horario</key>
+		<string>Lunes a Viernes de 18:00 a 20:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_388268</string>
+		<key>imagen</key>
+		<string>kike290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Ok! W </string>
+		<key>presentador</key>
+		<string>con Javier Poza</string>
+		<key>horario</key>
+		<string>Lunes a Viernes de 10:00 a 12:00H</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_13777</string>
+		<key>imagen</key>
+		<string>poza290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Pasión W </string>
+		<key>presentador</key>
+		<string>con Francisco Javier González </string>
+		<key>horario</key>
+		<string>Lunes a viernes de 16:00 a 18:00</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_15822</string>
+		<key>imagen</key>
+		<string>pacho290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>La noche W </string>
+		<key>presentador</key>
+		<string>con Fernando Rivera Calderón </string>
+		<key>horario</key>
+		<string>Lunes a Viernes: 22:00 a 00:00 Horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_518119</string>
+		<key>imagen</key>
+		<string>rive290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Automóvil W </string>
+		<key>presentador</key>
+		<string>con Víctor Ortiz </string>
+		<key>horario</key>
+		<string>Sábados de 12:00 a 14:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_406874</string>
+		<key>imagen</key>
+		<string>todos.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Expedición W </string>
+		<key>presentador</key>
+		<string>con Marco Daniel Guzmán </string>
+		<key>horario</key>
+		<string>Sábados 14:00 a 15:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_443629</string>
+		<key>imagen</key>
+		<string>expedicion290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Noticias W </string>
+		<key>presentador</key>
+		<string>con Enrique Hernández Alcázar </string>
+		<key>horario</key>
+		<string>Sábados: 7:00 a 9:00 am</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_733417</string>
+		<key>imagen</key>
+		<string>kike290.png</string>
+	</dict>
+	<dict>
+		<key>programa</key>
+		<string>Señal TN </string>
+		<key>presentador</key>
+		<string>con Martha Sabrina y Tania Burak </string>
+		<key>horario</key>
+		<string>Sábados de 9:00 a 10:00 horas</string>
+		<key>url</key>
+		<string>http://www.wradio.com.mx//feed.aspx?id=PROG_445213</string>
+		<key>imagen</key>
+		<string>teen3290.png</string>
+	</dict>
+</array>
+</plist>
