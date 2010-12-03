@@ -96,8 +96,9 @@
 
 
 -(NSString *)tableView:(UITableView *)aTableView titleForHeaderInSection:(NSInteger)section {
-	
-	return [anItem objectForKey:@"programa"];
+	NSString * program = anItem objectForKey:@"programa";
+	if (program == nil) return @"Programa";
+	else return program;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

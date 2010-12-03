@@ -60,17 +60,21 @@
 			
 		}
 		
-		
+		if ([[appDelegate moviePlayer] respondsToSelector:@selector(MPMoviePlayerPlaybackStateDidChangeNotification)]) {
 		
 		[[NSNotificationCenter defaultCenter]  addObserver:self
 											   selector:@selector(playbackStateDidChange:)
 											   name:MPMoviePlayerPlaybackStateDidChangeNotification
 											   object:nil];
+		} 
+		else 
+		{
 		
 		[[NSNotificationCenter defaultCenter]  addObserver:self
 											   selector:@selector(loadStateDidChange:)
 											   name:MPMoviePlayerLoadStateDidChangeNotification
 											   object:nil];
+	   }
 		
     }
     return self;
