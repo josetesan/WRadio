@@ -23,9 +23,9 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = armv6;
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = BB3B6E9D1146EB5800BAE6C2 /* iWRadio */;
-		activeSDKPreference = iphonesimulator4.1;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* iWRadio */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* iWRadio */,
@@ -122,8 +122,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311196503;
-			PBXWorkspaceStateSaveDate = 311196503;
+			PBXPerProjectTemplateStateSaveDate = 313091964;
+			PBXWorkspaceStateSaveDate = 313091964;
 		};
 		perUserProjectItems = {
 			BB09B8E8115C304A00B854A2 /* PBXBookmark */ = BB09B8E8115C304A00B854A2 /* PBXBookmark */;
@@ -151,9 +151,6 @@
 			BB5563CD127DD49C00CC3B66 /* PBXTextBookmark */ = BB5563CD127DD49C00CC3B66 /* PBXTextBookmark */;
 			BB55643A127DD75E00CC3B66 /* PBXTextBookmark */ = BB55643A127DD75E00CC3B66 /* PBXTextBookmark */;
 			BB7C9123128C775900768FE4 /* PBXTextBookmark */ = BB7C9123128C775900768FE4 /* PBXTextBookmark */;
-			BB7C914A128C791A00768FE4 /* PBXTextBookmark */ = BB7C914A128C791A00768FE4 /* PBXTextBookmark */;
-			BB7C915A128C7AC100768FE4 /* PBXTextBookmark */ = BB7C915A128C7AC100768FE4 /* PBXTextBookmark */;
-			BB7C9189128C7B5300768FE4 /* PlistBookmark */ = BB7C9189128C7B5300768FE4 /* PlistBookmark */;
 			BB7F3D97127C9A960009C81C /* PlistBookmark */ = BB7F3D97127C9A960009C81C /* PlistBookmark */;
 			BB87BB1712775C3D00442801 /* PBXTextBookmark */ = BB87BB1712775C3D00442801 /* PBXTextBookmark */;
 			BB990B1212305F91009BA7DA /* PBXTextBookmark */ = BB990B1212305F91009BA7DA /* PBXTextBookmark */;
@@ -184,7 +181,10 @@
 			BBC8A034121DAA25002FB08B /* PBXTextBookmark */ = BBC8A034121DAA25002FB08B /* PBXTextBookmark */;
 			BBCA74A5122EFE6800835600 /* PBXTextBookmark */ = BBCA74A5122EFE6800835600 /* PBXTextBookmark */;
 			BBD547B11232BEEE00AEC7A0 /* PBXTextBookmark */ = BBD547B11232BEEE00AEC7A0 /* PBXTextBookmark */;
-			BBE94B35128C7BAE00C5F781 /* PlistBookmark */ = BBE94B35128C7BAE00C5F781 /* PlistBookmark */;
+			BBDCEB3212A9689800E87AAB /* PlistBookmark */ = BBDCEB3212A9689800E87AAB /* PlistBookmark */;
+			BBDCEB3312A9689800E87AAB /* PBXTextBookmark */ = BBDCEB3312A9689800E87AAB /* PBXTextBookmark */;
+			BBDCEB3712A968B500E87AAB /* XCBuildMessageTextBookmark */ = BBDCEB3712A968B500E87AAB /* XCBuildMessageTextBookmark */;
+			BBDCEB4412A9692D00E87AAB /* PBXTextBookmark */ = BBDCEB4412A9692D00E87AAB /* PBXTextBookmark */;
 			BBED45FE12775746007E2A2E /* PBXBookmark */ = BBED45FE12775746007E2A2E /* PBXBookmark */;
 			BBEEDA2B11D2A1D000AAD78D /* PBXTextBookmark */ = BBEEDA2B11D2A1D000AAD78D /* PBXTextBookmark */;
 			BBF737D8124F9385002751F2 /* PlistBookmark */ = BBF737D8124F9385002751F2 /* PlistBookmark */;
@@ -290,8 +290,8 @@
 	BB0D0CC11147276E007B5F50 /* RadioViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 3757}}";
-			sepNavSelRange = "{1323, 0}";
-			sepNavVisRange = "{845, 1048}";
+			sepNavSelRange = "{2271, 0}";
+			sepNavVisRange = "{1889, 859}";
 			sepNavWindowFrame = "{{2, 4}, {1278, 774}}";
 		};
 	};
@@ -779,38 +779,6 @@
 		vrLen = 808;
 		vrLoc = 145;
 	};
-	BB7C914A128C791A00768FE4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BB0D0CC11147276E007B5F50 /* RadioViewController.m */;
-		name = "RadioViewController.m: 40";
-		rLen = 0;
-		rLoc = 1323;
-		rType = 0;
-		vrLen = 1048;
-		vrLoc = 845;
-	};
-	BB7C915A128C7AC100768FE4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = BBA4DBC2114D519200A8FD0A /* ThePodcastViewController.m */;
-		name = "ThePodcastViewController.m: 231";
-		rLen = 91;
-		rLoc = 7941;
-		rType = 0;
-		vrLen = 1034;
-		vrLoc = 7526;
-	};
-	BB7C9189128C7B5300768FE4 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* iWRadio-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			LSRequiresIPhoneOS,
-		);
-		name = "/Users/josete/Documents/XCode/iWRadio/iWRadio-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	BB7F3D97127C9A960009C81C /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = BB0D0C81114721C8007B5F50 /* categorias.plist */;
@@ -863,9 +831,9 @@
 	};
 	BBA4DBC2114D519200A8FD0A /* ThePodcastViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1174, 3549}}";
-			sepNavSelRange = "{7941, 91}";
-			sepNavVisRange = "{7526, 1034}";
+			sepNavIntBoundsRect = "{{0, 0}, {920, 3718}}";
+			sepNavSelRange = "{3017, 0}";
+			sepNavVisRange = "{2620, 934}";
 			sepNavWindowFrame = "{{2, 4}, {1278, 774}}";
 		};
 	};
@@ -1042,7 +1010,7 @@
 		vrLen = 1328;
 		vrLoc = 0;
 	};
-	BBE94B35128C7BAE00C5F781 /* PlistBookmark */ = {
+	BBDCEB3212A9689800E87AAB /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* iWRadio-Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -1050,9 +1018,38 @@
 		kPath = (
 			LSRequiresIPhoneOS,
 		);
-		name = "/Users/josete/Documents/XCode/iWRadio/iWRadio-Info.plist";
+		name = "/Users/josete/Documents/XCode/WRadio/iWRadio-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775807;
+	};
+	BBDCEB3312A9689800E87AAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BB0D0CC11147276E007B5F50 /* RadioViewController.m */;
+		name = "RadioViewController.m: 63";
+		rLen = 0;
+		rLoc = 2271;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 1889;
+	};
+	BBDCEB3712A968B500E87AAB /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ',' or ';' before 'objectForKey'";
+		fRef = BBA4DBC2114D519200A8FD0A /* ThePodcastViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 98;
+		rType = 1;
+	};
+	BBDCEB4412A9692D00E87AAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BBA4DBC2114D519200A8FD0A /* ThePodcastViewController.m */;
+		name = "ThePodcastViewController.m: 99";
+		rLen = 0;
+		rLoc = 3017;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 2620;
 	};
 	BBED45FE12775746007E2A2E /* PBXBookmark */ = {
 		isa = PBXBookmark;

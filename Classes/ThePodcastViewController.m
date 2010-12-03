@@ -96,7 +96,7 @@
 
 
 -(NSString *)tableView:(UITableView *)aTableView titleForHeaderInSection:(NSInteger)section {
-	NSString * program = anItem objectForKey:@"programa";
+	NSString * program = [anItem objectForKey:@"programa"];
 	if (program == nil) return @"Programa";
 	else return program;
 }
@@ -186,19 +186,19 @@
 	}
 	
 }- (void)willEnterFullscreen:(NSNotification*)notification {
-    NSLog(@"willEnterFullscreen");
+
 }
 
 - (void)enteredFullscreen:(NSNotification*)notification {
-    NSLog(@"enteredFullscreen");
+  
 }
 
 - (void)willExitFullscreen:(NSNotification*)notification {
-    NSLog(@"willExitFullscreen");
+   
 }
 
 - (void)exitedFullscreen:(NSNotification*)notification {
-    NSLog(@"exitedFullscreen");
+
 	[self.mplayer.view removeFromSuperview];
 	self.mplayer = nil;
     [[NSNotificationCenter defaultCenter] removeObserver:self];

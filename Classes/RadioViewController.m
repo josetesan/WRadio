@@ -60,7 +60,7 @@
 			
 		}
 		
-		if ([[appDelegate moviePlayer] respondsToSelector:@selector(MPMoviePlayerPlaybackStateDidChangeNotification)]) {
+		if ([[appDelegate moviePlayer] respondsToSelector:@selector(playbackStateDidChange)]) {
 		
 		[[NSNotificationCenter defaultCenter]  addObserver:self
 											   selector:@selector(playbackStateDidChange:)

@@ -255,8 +255,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -327,7 +325,7 @@
 							<real>277</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 59 1280 719 0 0 1280 778 </string>
+						<string>-31 59 1280 719 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -338,12 +336,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iWRadio-Info.plist</string>
+								<string>ThePodcastViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -351,11 +351,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iWRadio-Info.plist</string>
+										<string>ThePodcastViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BBE94B35128C7BAE00C5F781</string>
+										<string>BBDCEB4412A9692D00E87AAB</string>
 										<key>history</key>
 										<array>
 											<string>BB3B6F181146EF0A00BAE6C2</string>
@@ -418,9 +418,9 @@
 											<string>BB55643A127DD75E00CC3B66</string>
 											<string>BB184DF8127DDA4600FE1F67</string>
 											<string>BB7C9123128C775900768FE4</string>
-											<string>BB7C914A128C791A00768FE4</string>
-											<string>BB7C915A128C7AC100768FE4</string>
-											<string>BB7C9189128C7B5300768FE4</string>
+											<string>BBDCEB3212A9689800E87AAB</string>
+											<string>BBDCEB3312A9689800E87AAB</string>
+											<string>BBDCEB3712A968B500E87AAB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -432,14 +432,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {981, 416}}</string>
+								<string>{{0, 0}, {981, 408}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1280 719 0 0 1280 778 </string>
+								<string>-31 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>416pt</string>
+							<string>408pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -452,14 +452,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 421}, {981, 257}}</string>
+								<string>{{0, 413}, {981, 265}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 59 1280 719 0 0 1280 778 </string>
+								<string>-31 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>257pt</string>
+							<string>265pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -478,9 +478,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BBE94B31128C7B9F00C5F781</string>
+				<string>BBDCEB1212A9679300E87AAB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BBE94B32128C7B9F00C5F781</string>
+				<string>BBDCEB1312A9679300E87AAB</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -601,7 +601,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>311196590.067586</real>
+	<real>313092397.92040402</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -620,10 +620,10 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BB3B6EB01146EBAC00BAE6C2</string>
-		<string>/Users/josete/Documents/XCode/iWRadio/iWRadio.xcodeproj</string>
+		<string>/Users/josete/Documents/XCode/WRadio/iWRadio.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 59 1280 719 0 0 1280 778 </string>
+	<string>-31 59 1280 719 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -644,7 +644,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>ThePodcastViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -661,6 +661,8 @@
 							<string>436pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -700,7 +702,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BB3B6EB01146EBAC00BAE6C2</string>
-				<string>BBE94B26128C7B9700C5F781</string>
+				<string>BBDCEB1412A9679300E87AAB</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -822,13 +824,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>BBE94B27128C7B9700C5F781</string>
+				<string>BBDCEB3E12A968D000E87AAB</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>BBE94B28128C7B9700C5F781</string>
-				<string>BBE94B29128C7B9700C5F781</string>
-				<string>BBE94B2A128C7B9700C5F781</string>
-				<string>BBE94B2B128C7B9700C5F781</string>
-				<string>BBE94B2C128C7B9700C5F781</string>
+				<string>BBDCEB3F12A968D000E87AAB</string>
+				<string>BBDCEB4012A968D000E87AAB</string>
+				<string>BBDCEB4112A968D000E87AAB</string>
+				<string>BBDCEB4212A968D000E87AAB</string>
+				<string>BBDCEB4312A968D000E87AAB</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

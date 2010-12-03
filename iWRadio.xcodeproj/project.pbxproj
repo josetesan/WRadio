@@ -615,7 +615,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Union Radio";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Union Radio";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -626,9 +626,9 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "06895AEE-9E31-4817-97B0-F3C8AE47BA3D";
-				SDKROOT = iphoneos4.1;
+				PROVISIONING_PROFILE = "2ECD02C0-805C-4988-8905-490A6BE61085";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2ECD02C0-805C-4988-8905-490A6BE61085";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Distribution;
@@ -672,7 +672,7 @@
 				PRODUCT_NAME = IWRadio;
 				PROVISIONING_PROFILE = "27D3EA48-F0A5-4F53-9E07-C30B80DA07FB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27D3EA48-F0A5-4F53-9E07-C30B80DA07FB";
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -712,7 +712,7 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -731,7 +731,7 @@
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
