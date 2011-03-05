@@ -71,7 +71,6 @@
 		BB5562A1127DC7BC00CC3B66 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB55629E127DC7BC00CC3B66 /* CXMLDocument_CreationExtensions.m */; };
 		BB5562A2127DC7BC00CC3B66 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5562A0127DC7BC00CC3B66 /* CXMLNode_CreationExtensions.m */; };
 		BB556387127DD2DA00CC3B66 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB556386127DD2DA00CC3B66 /* CTidy.m */; };
-		BB747A3A121D9A1800E65AEA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB747A39121D9A1800E65AEA /* MBProgressHUD.m */; };
 		BB802FE4124966BA001DEEDB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB802FE3124966BA001DEEDB /* Default.png */; };
 		BB91746311518F7B0005425C /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB91746211518F7B0005425C /* Entitlements.plist */; };
 		BBA4DBC4114D519200A8FD0A /* ThePodcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA4DBC2114D519200A8FD0A /* ThePodcastViewController.m */; };
@@ -79,6 +78,7 @@
 		BBAEDBB9115A9925008FBC48 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEDBB8115A9925008FBC48 /* MessageUI.framework */; };
 		BBAFEF96114C566F004E4620 /* DetailRssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAFEF94114C566F004E4620 /* DetailRssViewController.m */; };
 		BBAFEF97114C566F004E4620 /* DetailRssViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBAFEF95114C566F004E4620 /* DetailRssViewController.xib */; };
+		BBB831001322641300256EBD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB830FF1322641300256EBD /* MBProgressHUD.m */; };
 		BBD547911232BC6C00AEC7A0 /* smallpausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD5478F1232BC6C00AEC7A0 /* smallpausebutton.png */; };
 		BBD547921232BC6C00AEC7A0 /* smallplaybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD547901232BC6C00AEC7A0 /* smallplaybutton.png */; };
 		BBED458A1277567B007E2A2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBED45891277567B007E2A2E /* AVFoundation.framework */; };
@@ -173,8 +173,6 @@
 		BB5562A0127DC7BC00CC3B66 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
 		BB556385127DD2DA00CC3B66 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
 		BB556386127DD2DA00CC3B66 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
-		BB747A38121D9A1800E65AEA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = "<group>"; };
-		BB747A39121D9A1800E65AEA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
 		BB802FE3124966BA001DEEDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BB91746211518F7B0005425C /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.entitlements"; sourceTree = "<group>"; };
 		BBA4DBC1114D519200A8FD0A /* ThePodcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThePodcastViewController.h; sourceTree = "<group>"; };
@@ -184,6 +182,8 @@
 		BBAFEF93114C566F004E4620 /* DetailRssViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailRssViewController.h; sourceTree = "<group>"; };
 		BBAFEF94114C566F004E4620 /* DetailRssViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailRssViewController.m; sourceTree = "<group>"; };
 		BBAFEF95114C566F004E4620 /* DetailRssViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailRssViewController.xib; path = Classes/DetailRssViewController.xib; sourceTree = "<group>"; };
+		BBB830FE1322641300256EBD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BBB830FF1322641300256EBD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		BBD5478F1232BC6C00AEC7A0 /* smallpausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallpausebutton.png; sourceTree = "<group>"; };
 		BBD547901232BC6C00AEC7A0 /* smallplaybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallplaybutton.png; sourceTree = "<group>"; };
 		BBED45891277567B007E2A2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -217,6 +217,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BBB830FD132262DA00256EBD /* MBProgressHUD */,
 				BB55627F127DC76700CC3B66 /* TouchXML */,
 				BB0D0C5311471AB2007B5F50 /* ViewControllers */,
 				BB0D0B5C11470989007B5F50 /* Helpers */,
@@ -306,8 +307,6 @@
 		BB0D0B5C11470989007B5F50 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				BB747A38121D9A1800E65AEA /* MBProgressHUD.h */,
-				BB747A39121D9A1800E65AEA /* MBProgressHUD.m */,
 				BB0D0B5D114709A4007B5F50 /* RssLoader.h */,
 				BB0D0B5E114709A4007B5F50 /* RssLoader.m */,
 			);
@@ -427,6 +426,15 @@
 			);
 			name = Tidy;
 			sourceTree = "<group>";
+		};
+		BBB830FD132262DA00256EBD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BBB830FE1322641300256EBD /* MBProgressHUD.h */,
+				BBB830FF1322641300256EBD /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -549,7 +557,6 @@
 				BBEF0C87114D491800F2CF81 /* PodcastViewController.m in Sources */,
 				BBA4DBC4114D519200A8FD0A /* ThePodcastViewController.m in Sources */,
 				BB3B1AA6115AD7DE00986B1B /* iwradio.xcdatamodel in Sources */,
-				BB747A3A121D9A1800E65AEA /* MBProgressHUD.m in Sources */,
 				BB556294127DC7AA00CC3B66 /* CXMLDocument_PrivateExtensions.m in Sources */,
 				BB556295127DC7AA00CC3B66 /* CXMLDocument.m in Sources */,
 				BB556296127DC7AA00CC3B66 /* CXMLElement_CreationExtensions.m in Sources */,
@@ -562,6 +569,7 @@
 				BB5562A1127DC7BC00CC3B66 /* CXMLDocument_CreationExtensions.m in Sources */,
 				BB5562A2127DC7BC00CC3B66 /* CXMLNode_CreationExtensions.m in Sources */,
 				BB556387127DD2DA00CC3B66 /* CTidy.m in Sources */,
+				BBB831001322641300256EBD /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
