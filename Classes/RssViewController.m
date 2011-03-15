@@ -207,9 +207,14 @@
 	
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(category == %@)", self.category];
 	[request setPredicate:predicate];
-	
-	NSError *error;
-	self.rssArray = [self.context executeFetchRequest:request error:&error];
+	@try {
+		NSError *error;
+		NSLog(@"Retrieving feeds for category %@ ",self.category);
+		self.rssArray = [self.context executeFetchRequest:request error:&error];
+	} @finally
+	{
+	   [request release];
+	}
 	if (self.rssArray == nil || [self.rssArray count]==0 )
 	{
 		NSLog(@"Array for category %@ is empty",self.category);
