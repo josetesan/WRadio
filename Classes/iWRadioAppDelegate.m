@@ -313,8 +313,8 @@
 	
 	/* Create our NSInvocationOperation to call loadDataWithOperation, passing in nil */
 	NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self
-																	  selector:@selector(getTheFeeds)
-																	  object:nil] ;
+						  selector:@selector(getTheFeeds)
+						  object:nil] ;
 	
 	/* Add the operation to the queue */
 	[queue addOperation:operation];
@@ -329,7 +329,7 @@
 	
 	NSError * error = nil;
 		// Convert the supplied URL string into a usable URL object
-	NSURL *url = [NSURL URLWithString: @"http://www.wradio.com.mx/feeda.aspx"];
+	NSURL *url = [NSURL URLWithString: @"http://www.wradio.com.mx/feed.aspx?id=INICIO"];
 	
 		// Create a new rssParser object based on the TouchXML "CXMLDocument" class, this is the
 		// object that actually grabs and processes the RSS data
