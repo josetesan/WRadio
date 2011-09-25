@@ -36,8 +36,8 @@
 			NSString * detail = [value substringWithRange:NSMakeRange(start,length)];
 	
 			[feed setDetail:detail];
-		} 
-		else if ([key isEqualToString:@"description"]) {
+        }
+        else if ([key isEqualToString:@"description"]) {
 				NSString * value = [node stringValue];
 				feed.theDescription = value;
 		}
@@ -65,13 +65,13 @@
 		
 			[feed setAuthor:[node stringValue] ];
 		}
-		else if ([key isEqualToString:@"pubDate"]){
-			NSDateFormatter * formatter = [[NSDateFormatter alloc ] init];
-			NSDate * date = [formatter dateFromString:[node stringValue]];
-			[formatter release];
-			[feed setDate:date];
-			[date release];
-		}
+//		else if ([key isEqualToString:@"pubDate"]){
+//			NSDateFormatter * formatter = [[NSDateFormatter alloc ] init];
+//			NSDate * date = [formatter dateFromString:[node stringValue]];
+//			[formatter release];
+//			[feed setDate:date];
+//			[date release];
+//		}
 		 
 	}
 	
