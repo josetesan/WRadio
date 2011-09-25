@@ -225,7 +225,7 @@
 	} else {
 		NSLog(@"Recovered %d in categoria %@",[self.rssArray count],self.category);
 	}
-	[request release];
+
 }
 
 

@@ -26,7 +26,8 @@
 		
 
 	
-		NSString * url1 = @"http://wms.cadenaunionradio.com:1935/mxwradio/mxwradio.stream/playlist.m3u8";
+		//NSString * url1 = @"http://wms.cadenaunionradio.com:1935/mxwradio/mxwradio.stream/playlist.m3u8";
+        NSString * url1 = @"http://playerservices.streamtheworld.com/m3u/W_RADIO.m3u";
 		NSString *escapedValue = 	(NSString *)CFURLCreateStringByAddingPercentEscapes(nil,
 																						(CFStringRef)url1,
 																						nil,
@@ -48,15 +49,6 @@
 													 selector:@selector(loadStateDidChange:) 
 														 name:MPMoviePlayerLoadStateDidChangeNotification 
 													   object:nil];
-			
-		}
-		else
-		{
-				// Register to receive a notification when the movie is ready to play.
-			[[NSNotificationCenter defaultCenter] addObserver:self 
-												  selector:@selector(preloadDidFinish:) 
-												  name:MPMoviePlayerContentPreloadDidFinishNotification 
-												  object:nil];
 			
 		}
 		
