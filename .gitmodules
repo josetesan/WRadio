@@ -3,4 +3,4 @@
 	url = git://github.com/matej/MBProgressHUD.git
 [submodule "TouchXML"]
 	path = TouchXML
-	url = git://github.com/TouchCode/TouchXML.git
+	url = git://github.com/mrevilme/TouchXML.git
