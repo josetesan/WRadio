@@ -329,20 +329,27 @@
 	
 	NSError * error = nil;
 		// Convert the supplied URL string into a usable URL object
-	NSURL *url = [NSURL URLWithString: @"http://www.wradio.com.mx/feed.aspx?id=INICIO"];
+	//NSURL *url = [NSURL URLWithString: @"http://www.wradio.com.mx/feed.aspx?id=INICIO"];
+    NSURL *url = [NSURL URLWithString: @"http://www.wradio.com.mx/feeds/feedTitulares.aspx?version=5"];
 	
 		// Create a new rssParser object based on the TouchXML "CXMLDocument" class, this is the
 		// object that actually grabs and processes the RSS data
 	CXMLDocument *rssParser = [[CXMLDocument alloc] initWithContentsOfURL:url options:0 error:&error];
 	NSArray * resultNodes = [rssParser nodesForXPath:@"//item" error:&error];
 	NSLog(@"Encontrados %d feeds",[resultNodes count]);
-	
-	// Loop through the resultNodes to access each items actual data
-	for (CXMLElement * resultElement in resultNodes) {
-		// parses the rss into an object
-		//NSLog(@"Leyendo feed");
-		[RssLoader parseFeedFromElement:resultElement inContext:[self managedObjectContext]];	
-	}	
+	@try {
+        // Loop through the resultNodes to access each items actual data
+        for (CXMLElement * resultElement in resultNodes) {
+            // parses the rss into an object
+            NSLog(@"Leyendo feed ...");
+            [RssLoader parseFeedFromElement:resultElement inContext:[self managedObjectContext]];	
+        }	
+    }
+    @catch (NSException *exception) {
+        NSLog(@"Error %@",[exception debugDescription]);
+    }
+    
+
 	NSLog(@"Feeds leidos a %@",[NSDate date]);
 	
 	[rssParser release];
